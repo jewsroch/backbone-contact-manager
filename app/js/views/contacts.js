@@ -10,4 +10,4 @@ ContactManager.Views.Contacts = Backbone.View.extend({
     this.collection.each(this.renderOne, this);
     return this;
   }
-})
+});
